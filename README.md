@@ -22,7 +22,7 @@ When Developer 1 deploys their feature, it **overwrites Developer 2's code** tha
 
 Every Pull Request automatically gets its own **isolated Kubernetes namespace** with a unique live URL. QA tests each feature independently. Developers never block each other. Environments are destroyed automatically when no longer needed.
 
-![Solution Diagram](docs/images/solution.png)
+![Solution Diagram](docs/ephemeral_k8s_architecture_v3.png)
 
 ---
 
