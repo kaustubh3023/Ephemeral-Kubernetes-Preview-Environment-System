@@ -29,7 +29,7 @@ Every Pull Request automatically gets its own **isolated Kubernetes namespace** 
 ## Demo
 
 ### Pipeline Running in Jenkins
-![Jenkins Pipeline](docs/images/jenkins-pipeline.png)
+![Jenkins Pipeline](docs/Screenshot 2026-07-01 162001.png)
 
 ### PR Comment with Live URL
 ![PR Comment](docs/images/pr-comment.png)
