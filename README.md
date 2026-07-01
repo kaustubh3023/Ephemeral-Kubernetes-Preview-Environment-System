@@ -14,7 +14,7 @@
 
 When Developer 1 deploys their feature, it **overwrites Developer 2's code** that QA is actively testing. Progress is lost. Bugs get confused with environments. Everyone blocks everyone else.
 
-![Problem Diagram](docs/images/problem.png)
+![Problem Diagram](docs/Problem.png)
 
 ---
 
