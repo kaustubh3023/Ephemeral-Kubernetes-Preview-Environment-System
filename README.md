@@ -60,8 +60,6 @@ This pattern is used by some of the most respected engineering teams in the worl
 | Vercel | Built their entire product around PR preview deployments |
 | Netlify | Deploy previews as a core feature |
 | Shopify | Internal system called Spin — ephemeral K8s envs per PR |
-| GitHub | Uses ephemeral environments for github.com development |
-| Uber | Per-PR environments for microservices testing at scale |
 
 These companies didn't build this because it was nice to have. They built it because shared staging was actively slowing them down.
 
