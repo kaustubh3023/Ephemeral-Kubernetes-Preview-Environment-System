@@ -156,26 +156,6 @@ The cost of the infrastructure is negligible compared to the developer time save
 
 ---
 
-## Repository Structure
-
-```
-Portfolio-Website/
-├── server.js                   ← Node.js backend (port 3000)
-├── public/                     ← Frontend HTML/CSS/JS
-│   ├── index.html
-│   ├── styles.css
-│   └── app.js
-├── package.json                ← Dependencies
-├── Dockerfile                  ← Container build instructions
-├── Jenkinsfile                 ← CI/CD pipeline definition
-└── k8s/
-    ├── deployment.yaml         ← Kubernetes deployment manifest
-    ├── service.yaml            ← NodePort service manifest
-    └── ingress.yaml            ← Ingress config (planned)
-```
-
----
-
 ## Pipeline Stages
 
 ```
