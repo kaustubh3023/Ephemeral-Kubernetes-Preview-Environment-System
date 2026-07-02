@@ -32,7 +32,7 @@ Every Pull Request automatically gets its own **isolated Kubernetes namespace** 
 ![Jenkins Pipeline](docs/pipeline.png)
 
 ### PR Comment with Live URL
-![PR Comment](docs/images/pr-comment.png)
+![PR Comment](docs/prcomment.png)
 
 ### Live Preview Environment
 ![Live Preview](docs/images/live-preview.png)
