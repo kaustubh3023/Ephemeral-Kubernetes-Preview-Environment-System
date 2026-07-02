@@ -35,7 +35,7 @@ Every Pull Request automatically gets its own **isolated Kubernetes namespace** 
 ![PR Comment](docs/prcomment.png)
 
 ### Live Preview Environment
-![Live Preview](docs/images/live-preview.png)
+![Live Preview](docs/preview.png)
 
 ### Multiple Isolated Namespaces
 ![Namespaces](docs/images/namespaces.png)
