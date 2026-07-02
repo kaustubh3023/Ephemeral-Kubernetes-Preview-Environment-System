@@ -291,23 +291,6 @@ Add a **Secret text** credential:
 | 30000-32767 | Kubernetes NodePort range |
 ---
 
-## 📁 Project Configuration Files
-
-All configuration files used in this project:
-
-### CI/CD Pipeline
-| File | Description |
-|------|-------------|
-| [`Jenkinsfile`](docs/config/Jenkinsfile) | Full Jenkins declarative pipeline |
-| [`Dockerfile`](docs/config/Dockerfile) | Container build instructions |
-
-### Kubernetes Manifests
-| File | Description |
-|------|-------------|
-| [`deployment.yaml`](docs/config/deployment.yaml) | K8s deployment — pod spec, image, resources |
-
----
-
 ## Results
 
 - ✅ Zero deployment collisions between parallel developers
