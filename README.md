@@ -43,36 +43,7 @@ Every Pull Request automatically gets its own **isolated Kubernetes namespace** 
 ---
 
 ## Architecture
-
-```
-Developer pushes code to GitHub
-            ↓
-    Jenkins detects change
-    (polls every 2 minutes)
-            ↓
-    Docker image built
-    tagged as portfolio:v{n}
-            ↓
-    Image imported to k3s
-    containerd runtime
-            ↓
-    Kubernetes namespace created
-    pr-{build_number}
-            ↓
-    ┌─────────────────────────┐
-    │  namespace: pr-{n}      │
-    │  ├── Deployment         │
-    │  │   └── portfolio pod  │
-    │  └── NodePort Service   │
-    │      └── port: 300{n}   │
-    └─────────────────────────┘
-            ↓
-    Live URL posted as
-    GitHub PR comment
-            ↓
-    Previous namespaces
-    auto-destroyed
-```
+![Architecture](docs/architecture.png)
 
 ---
 
