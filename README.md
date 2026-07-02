@@ -116,7 +116,8 @@ The cost of the infrastructure is negligible compared to the developer time save
 ### Multiple Isolated Namespaces
 ![Namespaces](docs/images/namespaces.png)
 
----
+### Parallel Environments — Zero Conflicts
+![Namespaces](docs/images/namespaces.png)
 
 ## Architecture
 ![Architecture](docs/architecture.png)
