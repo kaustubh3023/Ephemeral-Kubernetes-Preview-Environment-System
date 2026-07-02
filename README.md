@@ -26,7 +26,6 @@ Every Pull Request automatically gets its own **isolated Kubernetes namespace** 
 
 ---
 ## Importance & Need of This Project
-# Importance & Need of This Project
 
 ## The Core Problem It Solves
 
