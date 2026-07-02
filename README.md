@@ -298,9 +298,6 @@ Add a **Secret text** credential:
 ## Author
 
 **Kaustubh Sharma**
-B.Tech Biotechnology | NIET Greater Noida | CGPA 8.6
-DevOps & Cloud Engineering
-
 [![GitHub](https://img.shields.io/badge/GitHub-kaustubh3023-181717?style=flat&logo=github)](https://github.com/kaustubh3023)
 
 ---
