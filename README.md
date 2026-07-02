@@ -313,35 +313,6 @@ Add a **Secret text** credential:
 - [ ] **Auto-destroy on PR close** — webhook triggered cleanup
 - [ ] **GitHub Actions migration** — replace Jenkins with GHA
 
----
-
-## Screenshots
-
-> Add your screenshots to `docs/images/` folder
-
-| Screenshot | Description |
-|-----------|-------------|
-| `banner.png` | Project hero image |
-| `problem.png` | Before — shared staging collision |
-| `solution.png` | After — isolated namespaces |
-| `jenkins-pipeline.png` | Jenkins pipeline stages |
-| `pr-comment.png` | GitHub PR with live URL comment |
-| `live-preview.png` | Portfolio running in preview env |
-| `namespaces.png` | `kubectl get namespaces` output |
-
----
-
-## What I Learned
-
-- Kubernetes namespace isolation as environment boundaries
-- Jenkins declarative pipeline syntax and credential management
-- GitHub API integration for automated PR commenting
-- Docker image lifecycle — build, tag, import into k3s containerd
-- systemd service creation for permission persistence
-- Debugging K8s pod networking, NodePort binding, namespace termination
-- Real DevOps problem solving under constraints (free tier infrastructure)
-
----
 
 ## Author
 
