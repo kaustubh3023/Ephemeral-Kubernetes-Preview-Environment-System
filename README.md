@@ -114,10 +114,10 @@ The cost of the infrastructure is negligible compared to the developer time save
 ![Live Preview](docs/preview.png)
 
 ### Multiple Isolated Namespaces
-![Namespaces](docs/images/namespaces.png)
+![Namespaces](docs/namespaces.png)
 
-### Parallel Environments — Zero Conflicts
-![Namespaces](docs/images/namespaces.png)
+### Isolated PR Environment
+![Namespaces](docs/insidepod.png)
 
 ## Architecture
 ![Architecture](docs/architecture.png)
